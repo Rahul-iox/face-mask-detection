@@ -1,32 +1,33 @@
+# Fake News Detection using Machine Learning
 
-# Face Mask Detection
+## 🔍 Project Overview
+This project uses machine learning and NLP to classify whether a news article is fake or real. It is built using Python and Scikit-learn.
 
-A real-time face mask detection system using Convolutional Neural Networks (CNN) and OpenCV. This project helps identify whether a person is wearing a face mask or not using webcam footage. It can be used for crowd monitoring and health safety in public places.
+## 💡 Features
+- Text preprocessing using NLP techniques
+- Model training using Logistic Regression
+- Evaluation using accuracy, precision, and recall
+- Jupyter Notebook for step-by-step explanation
 
-## 🔧 Technologies Used
+## 📚 Tech Stack
 - Python
-- TensorFlow / Keras
-- OpenCV
-- NumPy, Pandas
-- CNN (Convolutional Neural Network)
+- Pandas, NumPy
+- Scikit-learn
+- Jupyter Notebook
 
-## 📌 Features
-- Real-time face detection using webcam
-- CNN model trained on face mask dataset
-- High accuracy on both masked and unmasked faces
-- Easy to run and extend
+## 🧠 Algorithm Used
+- TF-IDF Vectorizer
+- Logistic Regression
 
-## 🚀 How to Run
-1. Clone the repo
-2. Install dependencies using `requirements.txt`
-3. Run `train_model.py` to train the model (or use pre-trained one)
-4. Run `detect_mask.py` to test live via webcam
+## 📦 Dataset
+[Kaggle Fake and Real News Dataset](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset)
 
-## 📁 Dataset
-Dataset used: [Face Mask Detection Dataset (Kaggle)](https://www.kaggle.com/datasets/andrewmvd/face-mask-detection)
+## 🚀 Run Locally
+```bash
+git clone https://github.com/yourusername/Fake-News-Detection-ML.git
+cd Fake-News-Detection-ML
+pip install -r requirements.txt
+```
 
-## 📷 Sample Output
-> Add a screenshot or demo video link here
-
-## 📜 License
-This project is open-source and free to use.
+## 🔗 Connect
+Made by Rahul Palei – [LinkedIn](https://www.linkedin.com/in/rahul-palei-621761294)
